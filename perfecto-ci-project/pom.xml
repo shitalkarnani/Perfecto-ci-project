@@ -9,23 +9,35 @@
     <artifactId>perfecto-ci-project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!-- 🔥 FORCE Selenium version alignment -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-bom</artifactId>
+                <version>4.20.0</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
 
-        <!-- ✅ Stable Appium version -->
+        <!-- Appium Java Client -->
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
-            <version>8.5.1</version>
+            <version>9.0.0</version>
         </dependency>
 
-        <!-- ✅ Compatible Selenium version -->
+        <!-- Selenium (version controlled by BOM) -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.11.0</version>
         </dependency>
 
-        <!-- ✅ TestNG -->
+        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -37,14 +49,12 @@
 
     <build>
         <plugins>
-
-            <!-- ✅ Run tests -->
+            <!-- Run tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version>
             </plugin>
-
         </plugins>
     </build>
 
