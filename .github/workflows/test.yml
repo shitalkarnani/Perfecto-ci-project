@@ -25,6 +25,7 @@ jobs:
       - name: Run Tests
         env:
           PERFECTO_TOKEN: ${{ secrets.PERFECTO_TOKEN }}
+          PERFECTO_CLOUD: ${{ secrets.PERFECTO_CLOUD }}
         run: mvn test
         working-directory: ./perfecto-ci-project
         
