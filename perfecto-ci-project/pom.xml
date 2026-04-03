@@ -163,11 +163,12 @@
             <artifactId>selenium-java</artifactId>
             <version>4.35.0</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>io.perfecto</groupId>
             <artifactId>token-provider</artifactId>
             <version>1.0.0</version>
         </dependency>
+        -->
     </dependencies>
 
 
