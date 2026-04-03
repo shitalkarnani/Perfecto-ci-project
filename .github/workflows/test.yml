@@ -19,13 +19,11 @@ jobs:
           java-version: '17'
 
       - name: Build with Maven
+        working-directory: ./perfecto-ci-project
         run: mvn clean install
-        working-directory: ./perfecto-ci-project
-        
+
       - name: Run Tests
-        env:
-          PERFECTO_TOKEN: ${{ secrets.PERFECTO_TOKEN }}
-          PERFECTO_CLOUD: ${{ secrets.PERFECTO_CLOUD }}
-        run: mvn test
         working-directory: ./perfecto-ci-project
-        
+        run: |
+          echo "Running tests with Perfecto..."
+          mvn test -DPERFECTO_TOKEN=${{ secrets.PERFECTO_TOKEN }} -DPERFECTO_CLOUD=${{ secrets.PERFECTO_CLOUD }}
