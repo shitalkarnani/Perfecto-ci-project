@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7907d01e-63f7-4259-9129-060962c21313" name="Changes" comment="pom changes for token">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/SampleTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shitalkarnani&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shitalkarnani/perfecto-ci-project.git&quot;,
+    &quot;accountId&quot;: &quot;736a3bb1-6fe8-422d-98e9-408ad3c23497&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3BrMDLejlvXsY6raDilAeIrF2oO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7907d01e-63f7-4259-9129-060962c21313" name="Changes" comment="" />
+      <created>1775242616901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775242616901</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial project setup">
+      <option name="closed" value="true" />
+      <created>1775243830447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775243830447</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Just added a comma">
+      <option name="closed" value="true" />
+      <created>1775244547551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775244547551</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix project structure + add workflow">
+      <option name="closed" value="true" />
+      <created>1775247007323</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775247007323</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix project structure + add workflow">
+      <option name="closed" value="true" />
+      <created>1775247237658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775247237658</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix project structure + add workflow">
+      <option name="closed" value="true" />
+      <created>1775247769734</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775247769734</updated>
+    </task>
+    <task id="LOCAL-00006" summary="selenium version fix">
+      <option name="closed" value="true" />
+      <created>1775248158712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775248158712</updated>
+    </task>
+    <task id="LOCAL-00007" summary="selenium version fix and cloud name">
+      <option name="closed" value="true" />
+      <created>1775248590758</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775248590758</updated>
+    </task>
+    <task id="LOCAL-00008" summary="pom update">
+      <option name="closed" value="true" />
+      <created>1775248783270</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775248783270</updated>
+    </task>
+    <task id="LOCAL-00009" summary="code changes">
+      <option name="closed" value="true" />
+      <created>1775249251799</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775249251799</updated>
+    </task>
+    <task id="LOCAL-00010" summary="code changes with other project">
+      <option name="closed" value="true" />
+      <created>1775249959752</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775249959752</updated>
+    </task>
+    <task id="LOCAL-00011" summary="pom changes for token">
+      <option name="closed" value="true" />
+      <created>1775250376406</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775250376406</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial project setup" />
+    <MESSAGE value="Just added a comma" />
+    <MESSAGE value="Fix project structure + add workflow" />
+    <MESSAGE value="selenium version fix" />
+    <MESSAGE value="selenium version fix and cloud name" />
+    <MESSAGE value="pom update" />
+    <MESSAGE value="code changes" />
+    <MESSAGE value="code changes with other project" />
+    <MESSAGE value="pom changes for token" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom changes for token" />
+  </component>
+</project>
