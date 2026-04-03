@@ -19,7 +19,7 @@ public class SampleTest {
         capabilities.setCapability("securityToken", System.getenv("PERFECTO_TOKEN"));
 
         IOSDriver driver = new IOSDriver(
-                new URL("https://YOUR-CLOUD.perfectomobile.com/nexperience/perfectomobile/wd/hub"),
+                new URL("https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub"),
                 capabilities
         );
 
