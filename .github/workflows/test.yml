@@ -20,9 +20,11 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean install
+        working-directory: ./perfecto-ci-project
         
       - name: Run Tests
         env:
           PERFECTO_TOKEN: ${{ secrets.PERFECTO_TOKEN }}
         run: mvn test
+        working-directory: ./perfecto-ci-project
         
