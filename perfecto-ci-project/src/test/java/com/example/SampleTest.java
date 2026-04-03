@@ -22,8 +22,8 @@ public class SampleTest {
     @Test
     public void testPerfecto() throws Exception {
 
-        String SecurityToken = System.getenv("PERFECTO_TOKEN");
-        String CloudName = System.getenv("PERFECTO_CLOUD");
+        String SecurityToken = System.getProperty("PERFECTO_TOKEN");
+        String CloudName = System.getProperty("PERFECTO_CLOUD");
         System.out.println("Cloud: " + CloudName);
         System.out.println("Token present: " + (SecurityToken != null));
         System.out.println("Token length: " + (SecurityToken != null ? SecurityToken.length() : 0));
